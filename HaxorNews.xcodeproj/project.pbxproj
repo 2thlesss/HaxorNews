@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97160FF529DC57C20083B3AF /* HaxorNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97160FF429DC57C20083B3AF /* HaxorNewsApp.swift */; };
+		97160FF729DC57C20083B3AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97160FF629DC57C20083B3AF /* ContentView.swift */; };
+		97160FF929DC57C30083B3AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97160FF829DC57C30083B3AF /* Assets.xcassets */; };
+		97160FFC29DC57C30083B3AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97160FFB29DC57C30083B3AF /* Preview Assets.xcassets */; };
+		9716100629DC57C30083B3AF /* HaxorNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716100529DC57C30083B3AF /* HaxorNewsTests.swift */; };
+		9716101029DC57C40083B3AF /* HaxorNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716100F29DC57C40083B3AF /* HaxorNewsUITests.swift */; };
+		9716101229DC57C40083B3AF /* HaxorNewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716101129DC57C40083B3AF /* HaxorNewsUITestsLaunchTests.swift */; };
+		9716102029DC5D280083B3AF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716101F29DC5D280083B3AF /* NetworkManager.swift */; };
+		9716102229DC5E3D0083B3AF /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716102129DC5E3D0083B3AF /* PostData.swift */; };
+		9716102529DC649C0083B3AF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716102429DC649C0083B3AF /* DetailView.swift */; };
+		9716102729DC6A410083B3AF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716102629DC6A410083B3AF /* WebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9716100229DC57C30083B3AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97160FE929DC57C20083B3AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97160FF029DC57C20083B3AF;
+			remoteInfo = HaxorNews;
+		};
+		9716100C29DC57C40083B3AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97160FE929DC57C20083B3AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97160FF029DC57C20083B3AF;
+			remoteInfo = HaxorNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97160FF129DC57C20083B3AF /* HaxorNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaxorNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97160FF429DC57C20083B3AF /* HaxorNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaxorNewsApp.swift; sourceTree = "<group>"; };
+		97160FF629DC57C20083B3AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97160FF829DC57C30083B3AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97160FFB29DC57C30083B3AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9716100129DC57C30083B3AF /* HaxorNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaxorNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9716100529DC57C30083B3AF /* HaxorNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaxorNewsTests.swift; sourceTree = "<group>"; };
+		9716100B29DC57C40083B3AF /* HaxorNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaxorNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9716100F29DC57C40083B3AF /* HaxorNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaxorNewsUITests.swift; sourceTree = "<group>"; };
+		9716101129DC57C40083B3AF /* HaxorNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaxorNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9716101F29DC5D280083B3AF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9716102129DC5E3D0083B3AF /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		9716102429DC649C0083B3AF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9716102629DC6A410083B3AF /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97160FEE29DC57C20083B3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97160FFE29DC57C30083B3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9716100829DC57C40083B3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97160FE829DC57C20083B3AF = {
+			isa = PBXGroup;
+			children = (
+				97160FF329DC57C20083B3AF /* HaxorNews */,
+				9716100429DC57C30083B3AF /* HaxorNewsTests */,
+				9716100E29DC57C40083B3AF /* HaxorNewsUITests */,
+				97160FF229DC57C20083B3AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97160FF229DC57C20083B3AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97160FF129DC57C20083B3AF /* HaxorNews.app */,
+				9716100129DC57C30083B3AF /* HaxorNewsTests.xctest */,
+				9716100B29DC57C40083B3AF /* HaxorNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97160FF329DC57C20083B3AF /* HaxorNews */ = {
+			isa = PBXGroup;
+			children = (
+				97160FF429DC57C20083B3AF /* HaxorNewsApp.swift */,
+				9716102329DC64880083B3AF /* Views */,
+				9716101E29DC5D040083B3AF /* Models */,
+				97160FF829DC57C30083B3AF /* Assets.xcassets */,
+				97160FFA29DC57C30083B3AF /* Preview Content */,
+			);
+			path = HaxorNews;
+			sourceTree = "<group>";
+		};
+		97160FFA29DC57C30083B3AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97160FFB29DC57C30083B3AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9716100429DC57C30083B3AF /* HaxorNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9716100529DC57C30083B3AF /* HaxorNewsTests.swift */,
+			);
+			path = HaxorNewsTests;
+			sourceTree = "<group>";
+		};
+		9716100E29DC57C40083B3AF /* HaxorNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9716100F29DC57C40083B3AF /* HaxorNewsUITests.swift */,
+				9716101129DC57C40083B3AF /* HaxorNewsUITestsLaunchTests.swift */,
+			);
+			path = HaxorNewsUITests;
+			sourceTree = "<group>";
+		};
+		9716101E29DC5D040083B3AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9716101F29DC5D280083B3AF /* NetworkManager.swift */,
+				9716102129DC5E3D0083B3AF /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9716102329DC64880083B3AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				97160FF629DC57C20083B3AF /* ContentView.swift */,
+				9716102429DC649C0083B3AF /* DetailView.swift */,
+				9716102629DC6A410083B3AF /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97160FF029DC57C20083B3AF /* HaxorNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9716101529DC57C40083B3AF /* Build configuration list for PBXNativeTarget "HaxorNews" */;
+			buildPhases = (
+				97160FED29DC57C20083B3AF /* Sources */,
+				97160FEE29DC57C20083B3AF /* Frameworks */,
+				97160FEF29DC57C20083B3AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaxorNews;
+			productName = HaxorNews;
+			productReference = 97160FF129DC57C20083B3AF /* HaxorNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9716100029DC57C30083B3AF /* HaxorNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9716101829DC57C40083B3AF /* Build configuration list for PBXNativeTarget "HaxorNewsTests" */;
+			buildPhases = (
+				97160FFD29DC57C30083B3AF /* Sources */,
+				97160FFE29DC57C30083B3AF /* Frameworks */,
+				97160FFF29DC57C30083B3AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9716100329DC57C30083B3AF /* PBXTargetDependency */,
+			);
+			name = HaxorNewsTests;
+			productName = HaxorNewsTests;
+			productReference = 9716100129DC57C30083B3AF /* HaxorNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9716100A29DC57C40083B3AF /* HaxorNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9716101B29DC57C40083B3AF /* Build configuration list for PBXNativeTarget "HaxorNewsUITests" */;
+			buildPhases = (
+				9716100729DC57C40083B3AF /* Sources */,
+				9716100829DC57C40083B3AF /* Frameworks */,
+				9716100929DC57C40083B3AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9716100D29DC57C40083B3AF /* PBXTargetDependency */,
+			);
+			name = HaxorNewsUITests;
+			productName = HaxorNewsUITests;
+			productReference = 9716100B29DC57C40083B3AF /* HaxorNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97160FE929DC57C20083B3AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					97160FF029DC57C20083B3AF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					9716100029DC57C30083B3AF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 97160FF029DC57C20083B3AF;
+					};
+					9716100A29DC57C40083B3AF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 97160FF029DC57C20083B3AF;
+					};
+				};
+			};
+			buildConfigurationList = 97160FEC29DC57C20083B3AF /* Build configuration list for PBXProject "HaxorNews" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97160FE829DC57C20083B3AF;
+			productRefGroup = 97160FF229DC57C20083B3AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97160FF029DC57C20083B3AF /* HaxorNews */,
+				9716100029DC57C30083B3AF /* HaxorNewsTests */,
+				9716100A29DC57C40083B3AF /* HaxorNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97160FEF29DC57C20083B3AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97160FFC29DC57C30083B3AF /* Preview Assets.xcassets in Resources */,
+				97160FF929DC57C30083B3AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97160FFF29DC57C30083B3AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9716100929DC57C40083B3AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97160FED29DC57C20083B3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9716102029DC5D280083B3AF /* NetworkManager.swift in Sources */,
+				9716102229DC5E3D0083B3AF /* PostData.swift in Sources */,
+				97160FF729DC57C20083B3AF /* ContentView.swift in Sources */,
+				9716102729DC6A410083B3AF /* WebView.swift in Sources */,
+				9716102529DC649C0083B3AF /* DetailView.swift in Sources */,
+				97160FF529DC57C20083B3AF /* HaxorNewsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97160FFD29DC57C30083B3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9716100629DC57C30083B3AF /* HaxorNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9716100729DC57C40083B3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9716101229DC57C40083B3AF /* HaxorNewsUITestsLaunchTests.swift in Sources */,
+				9716101029DC57C40083B3AF /* HaxorNewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9716100329DC57C30083B3AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97160FF029DC57C20083B3AF /* HaxorNews */;
+			targetProxy = 9716100229DC57C30083B3AF /* PBXContainerItemProxy */;
+		};
+		9716100D29DC57C40083B3AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97160FF029DC57C20083B3AF /* HaxorNews */;
+			targetProxy = 9716100C29DC57C40083B3AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9716101329DC57C40083B3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9716101429DC57C40083B3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9716101629DC57C40083B3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HaxorNews/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.treeves.HaxorNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9716101729DC57C40083B3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HaxorNews/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.treeves.HaxorNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9716101929DC57C40083B3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.treeves.HaxorNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaxorNews.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HaxorNews";
+			};
+			name = Debug;
+		};
+		9716101A29DC57C40083B3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.treeves.HaxorNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaxorNews.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HaxorNews";
+			};
+			name = Release;
+		};
+		9716101C29DC57C40083B3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.treeves.HaxorNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaxorNews;
+			};
+			name = Debug;
+		};
+		9716101D29DC57C40083B3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.treeves.HaxorNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaxorNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97160FEC29DC57C20083B3AF /* Build configuration list for PBXProject "HaxorNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9716101329DC57C40083B3AF /* Debug */,
+				9716101429DC57C40083B3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9716101529DC57C40083B3AF /* Build configuration list for PBXNativeTarget "HaxorNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9716101629DC57C40083B3AF /* Debug */,
+				9716101729DC57C40083B3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9716101829DC57C40083B3AF /* Build configuration list for PBXNativeTarget "HaxorNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9716101929DC57C40083B3AF /* Debug */,
+				9716101A29DC57C40083B3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9716101B29DC57C40083B3AF /* Build configuration list for PBXNativeTarget "HaxorNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9716101C29DC57C40083B3AF /* Debug */,
+				9716101D29DC57C40083B3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97160FE929DC57C20083B3AF /* Project object */;
+}
